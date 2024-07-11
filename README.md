@@ -19,7 +19,7 @@
 
 - Must not delete any data, except after being processed thoroughly within the 5 data quality aspect
 - The invalid data, must be modified/fix to ensure it is valid, hence they are split into rejected dataset and accepted dataset.
-- After the rejected dataset has been modified, it is merged back to the accepted dataset as a complte and whole dataset 
+- After the rejected dataset has been modified, it is merged back to the accepted dataset as a complete and whole dataset 
 ## Initial issues with dataset
 
 1. Dataset has multiple duplicate values
