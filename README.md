@@ -13,10 +13,13 @@
 ## Aim
 > Applying databricks fundamentals such as Medallion architecture (Raw layer/Bronze layer -> Silver layer -> Gold layer) using open source web application 
 1. To access the dataset located in Microsoft Azure container
-2.  Convert the raw file to parquet file format and uploaded it into Azure container, Bronze folder
-3.  Access via bronze folder to start processing the dataset
-4.  Upload the processed dataset into Azure container, Silver folder
+2. Convert the raw file to parquet file format and uploaded it into Azure container, Bronze folder
+3. Access via bronze folder to start processing the dataset
+4. Upload the processed dataset into Azure container, Silver folder
 
+- Must not delete any data, except after being processed thoroughly within the 5 data quality aspect
+- The invalid data, must be modified/fix to ensure it is valid, hence they are split into rejected dataset and accepted dataset.
+- After the rejected dataset has been modified, it is merged back to the accepted dataset as a complte and whole dataset 
 ## Initial issues with dataset
 
 1. Dataset has multiple duplicate values
