@@ -11,7 +11,7 @@
 **Data Visualization** - PowerBI
 
 ## Aim
-> Applying databricks fundamentals such as Medallion architecture (Raw layer/Bronze layer -> Silver layer -> Gold layer) using open source web application 
+> Applying databricks fundamentals such as Medallion architecture (Raw layer/Bronze layer -> Silver layer -> Gold layer) using open source web tools 
 1. To access the dataset located in Microsoft Azure container
 2. Convert the raw file to parquet file format and uploaded it into Azure container, Bronze folder
 3. Access via bronze folder to start processing the dataset
