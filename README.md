@@ -4,7 +4,7 @@
 
 ## Data Used
 
-**Data** - Hospital dataset over 5 million rows and consist of 5 columns from multiple countries.
+**Data** - Hospital dataset over 5 million rows and consist of 5 columns .
 
 **Data Cleaning & Data quality implementation** - Jupyter notebook (Python)
 
