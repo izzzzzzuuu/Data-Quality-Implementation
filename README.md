@@ -39,6 +39,6 @@
 Data quality of the dataset improve significantly, specifically in accuracy, consistency, and validity of the dataset
 
 ## Limitations
-1. Does not sure the gender of person only based on their name
-2. Unsure whether the format for email column is varied from people with title or with no title
-3. Unsure whether the same name belongs to the same person or different person, although they have the same values across rows but only with different ID, (temporary solution: Assumed they are different person **due to lac of information in dataset)
+1. Does not sure the gender of person, only based on their name because there is no column for gender/sex
+2. Assumptions were made, about the correctness format of email column, whether it is varied from people with title or with no title
+3. Unable to determine whether the same name belongs to the same person or different person, although they have the same values across rows but only with different ID, (temporary solution: Assumed they are different person **due to lack of information in dataset)
